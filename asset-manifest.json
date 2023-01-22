@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GotGames/static/css/main.7c021d36.css",
+    "main.js": "/GotGames/static/js/main.54a68706.js",
+    "static/js/787.fe30c73c.chunk.js": "/GotGames/static/js/787.fe30c73c.chunk.js",
+    "index.html": "/GotGames/index.html",
+    "main.7c021d36.css.map": "/GotGames/static/css/main.7c021d36.css.map",
+    "main.54a68706.js.map": "/GotGames/static/js/main.54a68706.js.map",
+    "787.fe30c73c.chunk.js.map": "/GotGames/static/js/787.fe30c73c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c021d36.css",
+    "static/js/main.54a68706.js"
+  ]
+}
