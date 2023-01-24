@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import { ContextGlobal } from '../globals/GlobalContext'
-import AddIcon from '@mui/icons-material/Add';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 export const VideoGameCard = ({game}) => {
   const{ addGameToBacklog, backlog, played } = useContext(ContextGlobal);
@@ -22,7 +22,7 @@ export const VideoGameCard = ({game}) => {
         <span className='game-date'>{game.released}</span>
       </div>
       <button className='game-add-button' disabled={disableAddBacklog || disableAddPlayed} onClick={() => addGameToBacklog(game)}>
-        <AddIcon/>
+        <ArrowForwardIcon/>
       </button>
     </div>
   )
