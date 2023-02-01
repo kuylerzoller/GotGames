@@ -7,7 +7,7 @@ export const Search = () => {
   const [results, setResults] = useState([]);
 
   useEffect( () => {
-    fetch(`https://rawg.io/api/games?key=${process.env.REACT_APP_RAWG_KEY}&search=${query}`)
+    fetch(`https://rawg.io/api/games?key=${process.env.REACT_APP_RAWG_KEY}&search=${query}`, {mode: "no-cors"})
     .then(res => res.json())
     .then((data) => {
       if(!data.errors) {
