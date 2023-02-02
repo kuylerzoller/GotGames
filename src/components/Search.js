@@ -5,9 +5,10 @@ import { VideoGameCard } from './VideoGameCard';
 export const Search = () => {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
+  const key = process.env.REACT_APP_RAWG_KEY;
 
   useEffect( () => {
-    fetch(`/search/games?key=${process.env.REACT_APP_RAWG_KEY}&search=${query}`)
+    fetch(`/search/games?key=${key}&search=${query}`)
     .then(res => res.json())
     .then((data) => {
       if(!data.errors) {
@@ -24,7 +25,7 @@ export const Search = () => {
     
     setQuery(e.target.value);
 
-    fetch(`/search/games?key=${process.env.REACT_APP_RAWG_KEY}&search=${e.target.value}`)
+    fetch(`/search/games?key=${key}&search=${e.target.value}`)
       .then(res => res.json())
       .then((data) => {
         if(!data.errors) {
