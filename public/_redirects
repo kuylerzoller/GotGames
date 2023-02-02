@@ -1,2 +1,2 @@
-/api/*    https://rawg.io/:splat    200
+/search/*    https://rawg.io/api/:splat    200
 /*        /index.html    200

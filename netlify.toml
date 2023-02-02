@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/api/*"
-  to = "https://rawg.io/:splat"
+  from = "/search/*"
+  to = "https://rawg.io/api/:splat"
   status = 200
   force = true
 

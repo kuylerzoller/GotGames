@@ -7,7 +7,7 @@ export const Search = () => {
   const [results, setResults] = useState([]);
 
   useEffect( () => {
-    fetch(`/api/games?key=${process.env.REACT_APP_RAWG_KEY}&search=${query}`)
+    fetch(`/search/games?key=${process.env.REACT_APP_RAWG_KEY}&search=${query}`)
     .then(res => res.json())
     .then((data) => {
       if(!data.errors) {
@@ -24,7 +24,7 @@ export const Search = () => {
     
     setQuery(e.target.value);
 
-    fetch(`/api/games?key=${process.env.REACT_APP_RAWG_KEY}&search=${e.target.value}`)
+    fetch(`/search/games?key=${process.env.REACT_APP_RAWG_KEY}&search=${e.target.value}`)
       .then(res => res.json())
       .then((data) => {
         if(!data.errors) {
