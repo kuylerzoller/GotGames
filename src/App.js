@@ -1,4 +1,5 @@
 import './App.css';
+import './'
 import { Header } from './components/Header';
 import SimpleBottomNavigation from './components/Navigation';
 import { Backlog } from './components/Backlog';
