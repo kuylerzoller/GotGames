@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/*"
+  to = "https://rawg.io/api"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
