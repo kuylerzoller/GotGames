@@ -22,7 +22,7 @@ body {
   min-height: 70px;
 }
 
-@media (min-width: 1162px){
+@media (max-width: 1162px){
   .header{
     font-size: 58px;
   }
