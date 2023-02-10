@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# Project information
+
+The sole purpose of this project is to manage your favoite video games! Add them to a backlog of games you want to play, then mark them as played once you're finished.
+
+Starting with the home/search screen... To addd a game to your backlog, click the arrow associated with the game. You can search for a specific game with the search bar!
+
+Check your backlog, any game you added should be there. If you want to mark them as played, click the check mark. If you want to remove it from your backlog, click the x!
+
+Check you played list, any game you marked as played will show here. You can remove them with the x.
+
+The backlog and played games are stored in your local storage. No need to sign in! Open the website and BOOM your games are there. Granted, this does not save across devices. (Maybe I'll add a sign in option)
+
+Here's the app in motion: https://gotgames.netlify.app/
+
+
+# General React information
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
