@@ -1,6 +1,6 @@
 # Project information
 
-The sole purpose of this project is to manage your favoite video games! Add them to a backlog of games you want to play, then mark them as played once you're finished.
+The sole purpose of this project is to manage your favoite video games! Add any game to a backlog of games you want to play, then mark them as played once you're finished.
 
 Starting with the home/search screen... To addd a game to your backlog, click the arrow associated with the game. You can search for a specific game with the search bar!
 
