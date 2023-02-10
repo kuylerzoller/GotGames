@@ -2,7 +2,7 @@
 
 The sole purpose of this project is to manage your favoite video games! Add any game to a backlog of games you want to play, then mark them as played once you're finished.
 
-Starting with the home/search screen... To addd a game to your backlog, click the arrow associated with the game. You can search for a specific game with the search bar!
+Starting with the home/search screen... To add a game to your backlog, click the arrow associated with the game. You can search for a specific game with the search bar!
 
 Check your backlog, any game you added should be there. If you want to mark them as played, click the check mark. If you want to remove it from your backlog, click the x!
 
