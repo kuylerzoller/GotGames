@@ -8,7 +8,7 @@ Check your backlog, any game you added should be there. If you want to mark them
 
 Check you played list, any game you marked as played will show here. You can remove them with the x.
 
-The backlog and played games are stored in your local storage. No need to sign in! Open the website and BOOM your games are there. Granted, this does not save across devices. (Maybe I'll add a sign in option)
+The backlog and played games are stored in your local storage. No need to sign in! Open the website and BOOM your games are there. Granted, this does not save across devices (maybe I'll add a "sign in" feature).
 
 Here's the app in motion: https://gotgames.netlify.app/
 
